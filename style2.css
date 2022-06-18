@@ -1,0 +1,114 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+.ps
+img
+{
+height:500x;
+width:500px;
+}
+.team-section{
+  overflow: hidden;
+  text-align: center;
+  padding: 60px;
+}
+.ps{
+  margin-bottom: 40px;
+}
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.ps a img{
+  width: 100%;
+  filter:grayscale(100%);
+  transition: 0.4s all;
+}
+.ps a:hover > img{
+  filter: none;
+}
+.section{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: #0DE821;
+  text-align: justify;
+  font-size: 25px;
+  height: 0;
+  overflow: hidden;
+}
+.section:target{
+  height: auto;
+}
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #0437B6;
+  font-weight: bold;
+
+}
+.wordart {
+  font-family: Arial, sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wordart.blues .text {
+    font-family: Impact, sans-serif;
+    color: #B52121;
+    -webkit-text-stroke: 0.01em #0000aa;
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#0000aa,Strength=1);
+    text-shadow: 0.13em -0.13em 0px #0000aa;
+    letter-spacing: -0.05em;
+}
+.wordart::after
+{ content: '';
+background: #B52121;
+display:block;
+height:7px;
+width:400px;
+margin: 0px auto 5px;
+}
+.icon a i
+{
+position: relative;
+font-size: 40px;
+color: red;
+transform:translate(-300%,-650%);
+padding-left: 50px;
+transition: 0.3s;
+opacity: 0;
+}
+.icon:hover a i
+{
+opacity: 1;
+}
+.ico a i
+  {
+  position: relative;
+  font-size: 40px;
+  color: #F68C05;
+  padding-left: 50px;
+  transition: 0.3s;
+  transform: translate(250%,-800%);
+  opacity: 0;
+  }
+.ico:hover a i
+  {
+  opacity: 1;
+  {
